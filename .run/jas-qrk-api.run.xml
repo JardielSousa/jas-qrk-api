@@ -1,0 +1,17 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="jas-qrk-api" type="QuarkusRunConfiguration" factoryName="QuarkusRunConfiguration">
+    <option name="env">
+      <map>
+        <entry key="DB_HOST" value="127.0.0.1" />
+        <entry key="DB_NAME" value="postgres" />
+        <entry key="DB_PASS" value="password" />
+        <entry key="DB_PORT" value="5432" />
+        <entry key="DB_SCHEMA" value="jas-qrk-api" />
+        <entry key="DB_USER" value="postgres" />
+      </map>
+    </option>
+    <module name="jas-qrk-api" />
+    <option name="profile" />
+    <method v="2" />
+  </configuration>
+</component>
