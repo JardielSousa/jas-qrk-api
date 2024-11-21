@@ -1,4 +1,6 @@
 quarkus:
+  http:
+    test-port: 8091
 # configure your datasource
   datasource:
     db-kind: postgresql
@@ -16,3 +18,7 @@ quarkus:
   flyway:
     migrate-at-start: true
     clean-at-start: false
+
+# configure your jacoco settings
+  jacoco:
+    report-location: target/site
